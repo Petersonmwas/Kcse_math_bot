@@ -1,4 +1,4 @@
-```python
+python
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import os
@@ -28,4 +28,4 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
-```
+    
